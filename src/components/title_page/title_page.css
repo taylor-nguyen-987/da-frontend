@@ -1,0 +1,39 @@
+.titlePage {
+    font-family: 'Segoe UI Light';
+    font-size: large;
+}
+
+.containerfortyping {
+    display: inline-block;
+}
+
+.typed {
+    color: #DEB992;
+    font-family: 'Segoe UI';
+
+    overflow: hidden;
+    border-right: .15em solid #1BA098;
+    width: 0;
+    animation: typing 3.5s forwards;
+    white-space: nowrap;
+   
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+
+.button {
+    margin-left: 10px;
+}
+
+.showDetails {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.titletitle {
+    color: #DEB992;
+}

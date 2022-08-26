@@ -1,0 +1,18 @@
+.mainteam {
+    font-family: 'Segoe UI Light';
+    font-size: large;
+    color: #DEB992;
+}
+
+.profile {
+    border-radius: 6px;
+    border: 1px solid #DEB992;
+    margin: 20px auto 0 auto;
+    padding: 20px 20px 20px 20px;
+    float: left;
+    margin-left: 50px;
+}
+
+img {
+    border: 1px solid #DEB992;
+}
