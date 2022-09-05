@@ -20,7 +20,7 @@ export const TitlePage = () => {
             <h1>Recent</h1>
           </div>
           <div className="containerfortyping">
-            <p className="typed">Hi <b>{accounts[0] ? accounts[0].name : ""}</b>! Would you like to check out what's new?</p> {/*null is falsey so if accounts[0] is null, it will return an empty div*/}
+            <p className="typed">Hi! Would you like to check out what's new?</p> {/*null is falsey so if accounts[0] is null, it will return an empty div*/}
           </div>
           <div className='showDetails'>
             {state.length === 0 ? <ShowPosts onSubmit={saveData}/>: 

@@ -19,8 +19,7 @@ const navLinkGroups: INavLinkGroup[] = [
     links: [
       {
         name: 'Home',
-        url: '/',
-        expandAriaLabel: 'Expand Home section',
+        url: '/posts',
         isExpanded: true,
       },
       {
