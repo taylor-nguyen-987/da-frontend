@@ -35,11 +35,6 @@ function App() {
               <div className="content">
                   <Switch>
                       <Route exact path="/">
-                        <div className="landpage">
-                            <LandingPage />
-                        </div>
-                      </Route>
-                      <Route exact path="/posts">
                             <TitlePage />
                       </Route>
                       <Route path="/team">

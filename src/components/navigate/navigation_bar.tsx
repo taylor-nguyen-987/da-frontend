@@ -19,7 +19,7 @@ const navLinkGroups: INavLinkGroup[] = [
     links: [
       {
         name: 'Home',
-        url: '/posts',
+        url: '/',
         isExpanded: true,
       },
       {
